@@ -1,0 +1,27 @@
+{
+  "name": "TabSnap - Snapshots of your tablife",
+  "version": "3.0",
+  "description": "TabSnap is a simple, robust, open-source backup tool for your open tabs!",
+  "permissions": ["storage", "tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "24": "icon24.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "64": "icon64.png",
+      "128": "icon128.png",
+      "256": "icon256.png"
+    },
+    "default_title": "TabSnap"
+  },
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 3
+}
