@@ -56,8 +56,6 @@ TabSnap uses the following Chrome permissions:
 
 - `storage` for saving snapshots locally.
 - `tabs` for reading and restoring tab data.
-- `activeTab` for interaction with the current tab context.
-- `scripting` for extension-related scripting support.
 
 ## Notes
 
